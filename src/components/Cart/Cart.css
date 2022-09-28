@@ -1,0 +1,35 @@
+.cart {
+  border: 1px solid gray;
+  border-radius: 8px;
+  min-width: 310px;
+  min-height: 510px;
+  padding: 8px;
+}
+
+.cart img {
+  min-width: 100%;
+  max-width: 286px;
+  height: 286px;
+  border-radius: 8px;
+}
+
+.cart_details {
+  margin-left: 8px;
+}
+
+.cart_title {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.cart_info {
+  color: gray;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: italic;
+}
+
+.age,
+.time {
+  color: gray;
+}
