@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "img": "https://thumbs.dreamstime.com/b/football-13483337.jpg",
+    "name": "Football",
+    "details": "Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team's goal without using their hands or arms. The team that scores more goals wins.",
+    "age": "05-45",
+    "time": "90Mins"
+  },
+  {
+    "id": 2,
+    "img": "https://thumbs.dreamstime.com/b/cricket-bat-ball-turf-grass-close-up-wooden-182280789.jpg",
+    "name": "Cricket",
+    "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps.",
+    "age": "15-40",
+    "time": "30Mins"
+  },
+  {
+    "id": 3,
+    "img": "https://thumbs.dreamstime.com/b/badminton-racket-shuttlecock-27450074.jpg",
+    "name": "Badminton",
+    "details": "Badminton is a game played by two or four players on a rectangular court with a high net across the middle. The players try to score points by hitting a small object called a shuttlecock across the net using a racket.",
+    "age": "10-45",
+    "time": "40Mins"
+  },
+  {
+    "id": 4,
+    "img": "https://thumbs.dreamstime.com/b/volleyball-spike-hand-block-over-net-stadium-91314183.jpg",
+    "name": "Volleyball",
+    "details": "volleyball, Game played by two teams of six players each, in which an inflated ball is volleyed over a high net. Each team tries to make the ball touch the court within the opposing side's playing areas before it can be returned",
+    "age": "08-40",
+    "time": "20Mins"
+  },
+  {
+    "id": 5,
+    "img": "https://thumbs.dreamstime.com/b/hockey-14378835.jpg",
+    "name": "Hockey",
+    "details": "Hockey is a term used to denote various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice, or dry floor such as in a gymnasium.",
+    "age": "05-35",
+    "time": "150Mins"
+  },
+  {
+    "id": 6,
+    "img": "https://thumbs.dreamstime.com/b/baseball-player-hitting-ball-bat-close-up-158391871.jpg",
+    "name": "Baseball",
+    "details": "Baseball, game played with a bat, a ball, and gloves between two teams of nine players each on a field with four white bases laid out in a diamond (i.e., a square oriented so that its diagonal line is vertical).",
+    "age": "11-40",
+    "time": "75Mins"
+  },
+  {
+    "id": 7,
+    "img": "https://thumbs.dreamstime.com/b/basketball-arena-37563445.jpg",
+    "name": "Basketball",
+    "details": "Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent's goal, an elevated horizontal hoop and net called a basket",
+    "age": "08-40",
+    "time": "30Mins"
+  },
+  {
+    "id": 8,
+    "img": "https://thumbs.dreamstime.com/b/two-professional-boxer-boxing-black-smoky-background-studio-95840824.jpg",
+    "name": "Boxing",
+    "details": "Boxing is a sport that involves strategically punching an opponent while defending yourself from their return punches. Some amateurs practice boxing as a way to stay in shape.",
+    "age": "15-35",
+    "time": "60Mins"
+  },
+  {
+    "id": 9,
+    "img": "https://thumbs.dreamstime.com/b/two-professional-boxer-boxing-black-smoky-background-studio-95840824.jpg",
+    "name": "Tennis",
+    "details": "Tennis is a game played with two opposing players (singles) or pairs of players (doubles) using tautly strung rackets to hit a ball of specified size, weight, and bounce over a net on a rectangular court",
+    "age": "06-30",
+    "time": "90Mins"
+  }
+]
