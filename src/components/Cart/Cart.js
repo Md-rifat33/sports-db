@@ -1,5 +1,7 @@
 import React from 'react'
 import './Cart.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Cart = ({ activity }) => {
   const { img, age, details, name, time } = activity
@@ -18,6 +20,10 @@ const Cart = ({ activity }) => {
           Time required : <strong className="timer">{time}</strong>
         </p>
       </div>
+      <button className="cart_btn">
+        <p className="btn_text">Add to List</p>
+        <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
+      </button>
     </div>
   )
 }
