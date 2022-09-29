@@ -30,6 +30,10 @@
     margin-top: 150px;
     margin-right: 100px;
   }
+  .calculate_container {
+    margin-top: 60px;
+    max-width: 600px;
+  }
 }
 
 /* Medium Devices */
@@ -39,6 +43,6 @@
     grid-template-columns: 1fr;
   }
   .cart_container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }

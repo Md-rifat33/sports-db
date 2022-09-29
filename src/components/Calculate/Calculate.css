@@ -35,21 +35,16 @@
 }
 
 .break_btn {
-  border: none;
-  background: none;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.break_btn {
   color: #fff;
   font-weight: bolder;
   background-color: burlywood;
   border-radius: 5px;
   padding-left: 3px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .icon {
@@ -95,4 +90,47 @@
 .check_icon {
   font-weight: bold;
   margin-left: 5px;
+}
+
+.my_pic {
+  width: 90px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+  .introduction {
+    flex-direction: column;
+  }
+  .my_pic {
+    margin-right: 50px;
+  }
+  .about_me {
+    font-size: 17px;
+    flex-direction: column;
+  }
+  .break_time {
+    margin-left: 90px;
+    flex-direction: column;
+  }
+  .break_btn {
+    width: 70%;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .exercise_time_container {
+    margin-left: 10px;
+  }
+  .exercise_time,
+  .time_break {
+    width: 80%;
+    /* margin-left: 20px; */
+  }
+  .btn_activity {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 50px;
+  }
 }

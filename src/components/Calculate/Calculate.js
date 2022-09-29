@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Calculate.css'
+import myPic from '../../images/rifat1.jpg'
 // Font Awesome Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
@@ -23,7 +24,7 @@ const Calculate = ({ time }) => {
   return (
     <div>
       <div className="introduction">
-        <img src="../../images/logo.webp" alt="" />
+        <img className="my_pic" src={myPic} alt="" />
         <article className="names_blog">
           <h3>Md.Rifat</h3>
           <p>Dhaka, Bangladesh</p>
