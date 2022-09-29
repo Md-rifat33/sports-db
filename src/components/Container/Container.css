@@ -11,3 +11,34 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.calculate_container {
+  box-shadow: 1px -5px 28px gray;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Media Queries */
+
+/* small Devices */
+@media only screen and (max-width: 480px) {
+  .parent_container {
+    grid-template-columns: 1fr;
+  }
+  .cart_container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 150px;
+    margin-right: 100px;
+  }
+}
+
+/* Medium Devices */
+
+@media only screen and(min-width: 481px) and (max-width: 768px) {
+  .parent_container {
+    grid-template-columns: 1fr;
+  }
+  .cart_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

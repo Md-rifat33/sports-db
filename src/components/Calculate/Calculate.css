@@ -1,0 +1,79 @@
+.introduction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.names_blog {
+  color: gray;
+}
+
+.about_me {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.break {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+  font-style: italic;
+  font-size: 28px;
+  color: #fff;
+}
+
+.break_time {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 40px;
+}
+
+.break_btn {
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.break_btn {
+  color: #fff;
+  font-weight: bolder;
+  background-color: burlywood;
+  border-radius: 5px;
+  padding-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  margin-right: 3px;
+}
+.exercise_title {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+
+.exercise_time,
+.time_break {
+  margin-top: 40px;
+  padding: 15px;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 8px;
+  background-color: gray;
+  padding-left: 30px;
+}
+
+.exercise_time_container {
+  margin-right: 40px;
+  padding-right: 10px;
+}

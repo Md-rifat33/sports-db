@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Calculate from '../Calculate/Calculate'
 import Cart from '../Cart/Cart'
 import './Container.css'
 const Container = () => {
@@ -17,7 +18,7 @@ const Container = () => {
         ))}
       </div>
       <div className="calculate_container">
-        <h2>This is Calculate container</h2>
+        <Calculate></Calculate>
       </div>
     </div>
   )
