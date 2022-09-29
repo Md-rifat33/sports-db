@@ -3,10 +3,10 @@ import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = ({ activity }) => {
+const Cart = ({ activity, handleAddToList }) => {
   const { img, age, details, name, time } = activity
   return (
-    <div className="cart">
+    <div className="cart" data-aos="fade-up">
       <img src={img} alt="" />
       <div className="cart_details">
         <h3 className="cart_title">{name}</h3>
@@ -20,7 +20,7 @@ const Cart = ({ activity }) => {
           Time required : <strong className="timer">{time}</strong>
         </p>
       </div>
-      <button className="cart_btn">
+      <button onClick={() => handleAddToList(time)} className="cart_btn">
         <p className="btn_text">Add to List</p>
         <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
       </button>

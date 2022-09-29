@@ -28,7 +28,7 @@ const Calculate = () => {
         </article>
         <article>
           <h3>
-            25 <small>yrs</small>
+            14 <small>yrs</small>
           </h3>
           <p>Age</p>
         </article>
@@ -58,7 +58,7 @@ const Calculate = () => {
       </div>
       <h3 className="exercise_title">Exercise Details</h3>
       <div className="exercise_time_container">
-        <h3 className="exercise_time">Exercise time :</h3>
+        <h3 className="exercise_time">Exercise time : </h3>
         <h3 className="time_break">Break time :</h3>
       </div>
       <button className="btn_activity">

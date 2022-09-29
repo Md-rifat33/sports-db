@@ -4,6 +4,18 @@ import Cart from '../Cart/Cart'
 import './Container.css'
 const Container = () => {
   const [activities, setActivities] = useState([])
+  const [time, setTime] = useState([])
+
+  const handleAddToList = (times) => {
+    const newCount = time + times
+    console.log(newCount)
+    setTime([...time, newCount])
+  }
+
+  useEffect(() => {
+    console.log(time)
+  }, [time])
+
   useEffect(() => {
     fetch('activities.json')
       .then((res) => res.json())
@@ -14,11 +26,16 @@ const Container = () => {
       <div className="cart_container">
         {activities.map((activity) => console.log(activity))}
         {activities.map((activity) => (
-          <Cart activity={activity} key={activity.id}></Cart>
+          <Cart
+            time={time}
+            activity={activity}
+            key={activity.id}
+            handleAddToList={handleAddToList}
+          ></Cart>
         ))}
       </div>
       <div className="calculate_container">
-        <Calculate></Calculate>
+        <Calculate time={time} handleAddToList={handleAddToList}></Calculate>
       </div>
     </div>
   )
