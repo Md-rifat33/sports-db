@@ -75,9 +75,10 @@ const Calculate = ({ time }) => {
           return (
             <button
               key={breakTime}
-              onClick={
-                (() => addToDb(breakTime), () => setBreakTime(breakTime))
-              }
+              onClick={() => {
+                setBreakTime(breakTime)
+                addToDb(breakTime)
+              }}
               className="break_btn"
             >
               <FontAwesomeIcon

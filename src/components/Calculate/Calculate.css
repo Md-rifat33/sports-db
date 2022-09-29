@@ -144,4 +144,13 @@
   .break_btn {
     justify-content: center;
   }
+  .btn_activity {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .exercise_time,
+  .time_break {
+    width: 75%;
+    margin-left: 90px;
+  }
 }
