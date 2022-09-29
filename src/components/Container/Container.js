@@ -7,9 +7,7 @@ const Container = () => {
   const [time, setTime] = useState([])
 
   const handleAddToList = (times) => {
-    const newCount = time + times
-    console.log(newCount)
-    setTime([...time, newCount])
+    setTime([...time, times])
   }
 
   useEffect(() => {
@@ -24,7 +22,6 @@ const Container = () => {
   return (
     <div className="parent_container">
       <div className="cart_container">
-        {activities.map((activity) => console.log(activity))}
         {activities.map((activity) => (
           <Cart
             time={time}

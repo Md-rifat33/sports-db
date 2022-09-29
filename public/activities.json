@@ -5,7 +5,7 @@
     "name": "Football",
     "details": "Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team's goal without using their hands or arms. The team that scores more goals wins.",
     "age": "05 - 45",
-    "time": "90 Mins"
+    "time": 90
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "name": "Cricket",
     "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps.",
     "age": "15 - 40",
-    "time": "30 Mins"
+    "time": 30
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "name": "Badminton",
     "details": "Badminton is a game played by two or four players on a rectangular court with a high net across the middle. The players try to score points by hitting a small object called a shuttlecock across the net using a racket.",
     "age": "10 - 45",
-    "time": "40 Mins"
+    "time": 40
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "name": "Volleyball",
     "details": "volleyball, Game played by two teams of six players each, in which an inflated ball is volleyed over a high net. Each team tries to make the ball touch the court within the opposing side's playing areas before it can be returned",
     "age": "08 - 40",
-    "time": "20 Mins"
+    "time": 20
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "name": "Hockey",
     "details": "Hockey is a term used to denote various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice, or dry floor such as in a gymnasium.  The winner is determined by whoever has the most points at the end of the",
     "age": "05 - 35",
-    "time": "150 Mins"
+    "time": 150
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "Baseball",
     "details": "Baseball, game played with a bat, a ball, and gloves between two teams of nine players each on a field with four white bases laid out in a diamond (i.e., a square oriented so that its diagonal line is vertical).",
     "age": "11 - 40",
-    "time": "75 Mins"
+    "time": 75
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "Basketball",
     "details": "Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent's goal, an elevated horizontal hoop and net called a basket",
     "age": "08 - 40",
-    "time": "30 Mins"
+    "time": 30
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "Boxing",
     "details": "Boxing is a sport that involves strategically punching an opponent while defending yourself from their return punches. Some amateurs practice boxing as a way to stay in shape. The winner is determined by whoever has the most points at the end of the",
     "age": "15 - 35",
-    "time": "60 Mins"
+    "time": 60
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "name": "Tennis",
     "details": "Tennis is a game played with two opposing players (singles) or pairs of players (doubles) using tautly strung rackets to hit a ball of specified size, weight, and bounce over a net on a rectangular court",
     "age": "06 - 30",
-    "time": "90 Mins"
+    "time": 90
   }
 ]

@@ -1,6 +1,9 @@
 import React from 'react'
 import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faPerson } from '@fortawesome/free-solid-svg-icons'
+
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Cart = ({ activity, handleAddToList }) => {
@@ -14,10 +17,12 @@ const Cart = ({ activity, handleAddToList }) => {
           <small>{details}</small>
         </p>
         <p className="age">
-          For Age : <b>{age}</b>
+          For Age : <FontAwesomeIcon icon={faPerson}></FontAwesomeIcon>{' '}
+          <b>{age}</b>
         </p>
         <p className="time">
-          Time required : <strong className="timer">{time}</strong>
+          Time required : <FontAwesomeIcon icon={faClock}></FontAwesomeIcon>{' '}
+          <strong className="timer">{time} Mins</strong>
         </p>
       </div>
       <button onClick={() => handleAddToList(time)} className="cart_btn">
