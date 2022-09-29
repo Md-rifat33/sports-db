@@ -77,3 +77,22 @@
   margin-right: 40px;
   padding-right: 10px;
 }
+
+.btn_activity {
+  margin-top: 80px;
+  width: 100%;
+  background-color: burlywood;
+  color: #fff;
+  font-size: 20px;
+  height: 60px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.check_icon {
+  font-weight: bold;
+  margin-left: 5px;
+}

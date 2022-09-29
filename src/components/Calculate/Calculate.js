@@ -2,6 +2,7 @@ import React from 'react'
 import './Calculate.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 const Calculate = () => {
   return (
     <div>
@@ -57,9 +58,16 @@ const Calculate = () => {
       </div>
       <h3 className="exercise_title">Exercise Details</h3>
       <div className="exercise_time_container">
-        <h3 className="exercise_time">Exercise time</h3>
-        <h3 className="time_break">Break time</h3>
+        <h3 className="exercise_time">Exercise time :</h3>
+        <h3 className="time_break">Break time :</h3>
       </div>
+      <button className="btn_activity">
+        <p>Activity Completed</p>
+        <FontAwesomeIcon
+          className="check_icon"
+          icon={faCheck}
+        ></FontAwesomeIcon>
+      </button>
     </div>
   )
 }
