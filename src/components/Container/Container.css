@@ -44,6 +44,8 @@
   .cart_container {
     margin-top: 80px;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .calculate_container {
     margin-top: 50px;

@@ -135,4 +135,13 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .about_me {
+    flex-direction: column;
+  }
+  .break_time {
+    flex-direction: column;
+  }
+  .break_btn {
+    justify-content: center;
+  }
 }
