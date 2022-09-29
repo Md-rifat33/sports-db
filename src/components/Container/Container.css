@@ -32,17 +32,20 @@
   }
   .calculate_container {
     margin-top: 60px;
-    max-width: 600px;
   }
 }
 
 /* Medium Devices */
 
-@media only screen and(min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .parent_container {
     grid-template-columns: 1fr;
   }
   .cart_container {
-    grid-template-columns: repeat(1, 1fr);
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .calculate_container {
+    margin-top: 50px;
   }
 }

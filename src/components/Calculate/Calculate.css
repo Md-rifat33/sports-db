@@ -124,7 +124,6 @@
   .exercise_time,
   .time_break {
     width: 80%;
-    /* margin-left: 20px; */
   }
   .btn_activity {
     width: 70%;
@@ -133,4 +132,7 @@
     margin-top: 70px;
     margin-left: 50px;
   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 }

@@ -13,10 +13,29 @@ import 'react-toastify/dist/ReactToastify.css'
 const breakTimes = [10, 20, 30, 40, 50]
 
 const Calculate = ({ time }) => {
+  const addToDb = (id) => {
+    let activityCart
+
+    // get the cart
+    const storedCart = localStorage.getItem('breaking_time')
+    if (storedCart) {
+      activityCart = JSON.parse(storedCart)
+    } else {
+      activityCart = {}
+    }
+
+    const quantity = activityCart[id]
+    if (quantity) {
+      const newQuantity = quantity + 1
+      activityCart[id] = newQuantity
+    } else {
+      activityCart[id] = 1
+    }
+    localStorage.setItem('breaking_time', JSON.stringify(activityCart))
+  }
   const notify = () => toast('Yay!! We have done it.')
   let total = 0
   for (const product of time) {
-    console.log(product)
     total = total + product
   }
   const [breakTime, setBreakTime] = useState(0)
@@ -56,7 +75,9 @@ const Calculate = ({ time }) => {
           return (
             <button
               key={breakTime}
-              onClick={() => setBreakTime(breakTime)}
+              onClick={
+                (() => addToDb(breakTime), () => setBreakTime(breakTime))
+              }
               className="break_btn"
             >
               <FontAwesomeIcon
