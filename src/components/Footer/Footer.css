@@ -1,0 +1,27 @@
+.footer {
+  text-align: center;
+}
+
+.footer_title {
+  font-size: 35px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 700;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.social_icon {
+  cursor: pointer;
+  margin-left: 28px;
+  padding: 8px;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.social_icon:hover {
+  color: #fff;
+  transform: rotate(360deg);
+}
